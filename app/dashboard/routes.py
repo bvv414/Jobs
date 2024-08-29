@@ -6,4 +6,4 @@ from . import dashboard
 @login_required
 def dashboard_view():
     return render_template('dashboard/user_profile.html', username=current_user.name)
-#ghbvtxfybt
+#gh
